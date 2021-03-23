@@ -1,29 +1,33 @@
 <template>
-  <img alt="Vue logo" class="navbar-brand" src="./assets/logo.png">
-  <HelloWorld msg="Test de Vue.js"/>
+  <Player />
+  <Content />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Player  from './components/Player.vue';
+import Content from './components/Content.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Player,
+    Content,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+* {
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+  font-weight: normal;
 }
-.navbar-brand{
-  height: 5rem;
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
 }
 </style>
