@@ -1,24 +1,21 @@
-# foxbel-music-susananzth
+# Test de Vue JS 🤓
+Aplicando para fontend developer.
+## Construido con 🛠️
 
-## Project setup
-```
-npm install
-```
+Las herramientas que utilice para crear este proyecto
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+* [Vue JS](https://v3.vuejs.org/guide/installation.html#vue-devtools)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Autores ✒️
 
-### Lints and fixes files
-```
-npm run lint
-```
+* **Susana Piñero** - *FrontEnd + Documentación* - GitLab: [susananzth](https://gitlab.com/susananzth) GitHub: [susananzth](https://github.com/susananzth)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Licencia 📄
+
+Este proyecto está bajo la Licencia (GNU General Public License v3.0) - mira el archivo [LICENSE.md](https://github.com/susananzth/foxbel-music-susananzth/blob/main/LICENSE.md) para detalles
+
+## Expresiones de Gratitud 🎁
+
+* Comenta a otros sobre este proyecto 📢
+* Regálame una estrella ⭐
+* Copia el proyecto en tu cuenta, Fork

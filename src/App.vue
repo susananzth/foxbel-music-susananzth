@@ -1,6 +1,6 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" class="navbar-brand" src="./assets/logo.png">
+  <HelloWorld msg="Test de Vue.js"/>
 </template>
 
 <script>
@@ -22,5 +22,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.navbar-brand{
+  height: 5rem;
 }
 </style>
