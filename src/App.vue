@@ -1,12 +1,12 @@
 <template>
-    <Player />
-    <Content />
+  <Player />
+  <Content />
+  <router-view/>
 </template>
 
 <script>
 import Player  from './components/Player.vue';
 import Content from './components/Content.vue';
-
 
 export default {
   name: 'App',
@@ -26,8 +26,5 @@ export default {
 }
 h1, h2, h3, h4, h5, h6{
     font-size: 22px;
-    font-weight: bold;
-    color: #FFFFFF;
-    line-height: 27px; 
 }
 </style>
