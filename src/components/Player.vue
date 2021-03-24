@@ -35,6 +35,9 @@ export default {
 </script>
 
 <style scoped>
+.navbar{
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(108 108 109 / 48%);
+}
 .player{
     background: #EB5757;
     bottom: 0;

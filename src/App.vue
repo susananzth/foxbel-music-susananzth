@@ -1,6 +1,6 @@
 <template>
-  <Player />
-  <Content />
+    <Player />
+    <Content />
 </template>
 
 <script>
@@ -20,14 +20,14 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 * {
-  font-family: 'Quicksand', sans-serif;
-  font-style: normal;
-  font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 h1, h2, h3, h4, h5, h6{
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 27px;
-  color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 27px; 
 }
 </style>

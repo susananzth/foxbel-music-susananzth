@@ -13,29 +13,27 @@
         </div>
 </template>
 
-<script>
+<script scope>
 export default {
-  name: 'Player',
-  props: {
-    msg: String
-  }
+  name: 'Sidebar',
 }
 </script>
 
 <style scoped>
 #layoutSidebar {
-    width: 15rem;
-    height: 100vh;
-    z-index: 1038;
     border: solid 1px black;
+    height: 100vh;
+    width: 25rem;
+    z-index: 1038;
 }
-.sidebar{
-  background: #662323;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.sidenav{
+    background: #662323;
+    height: 100%;
+
 }
 .li-sidebar{
-  font-size: 16px;
-  line-height: 20px;
-  color: #FFFFFF;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 20px;
 }
 </style>

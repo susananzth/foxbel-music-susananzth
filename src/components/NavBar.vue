@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar px-5">
         <div class="container-fluid">
-            <form class="col-4 col-xs- 19">
+            <form class="col-6 col-xs-9">
                 <div class="input-group mb-3">
                     <input type="search" class="form-control input-search" placeholder="Buscar" aria-label="Buscar">
                     <button class="btn btn-search" type="button" id="search"><i class="fas fa-search"></i></button>
