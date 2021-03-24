@@ -1,21 +1,21 @@
 <template>
     <div class="navbar fixed-bottom player">
         <div class="row">
-            <div class="col-5">
+            <div class="col-4">
                 <img class="img-player" src="https://source.unsplash.com/TIutDBFEtcY/400x400" alt="">
                 <ul class="d-inline-block align-middle">
                     <li class="bold">Canción</li>
                     <li class="text-small pt-2">Artista - Album</li>
                 </ul>
             </div>
-            <div class="col-2">
+            <div class="col-4">
                 <div class="multimedia">
                     <button type="button" class="d-inline-block btn btn-back-for"><i class="fas fa-step-backward"></i></button>
                     <button id="play" type="button" class="d-inline-block btn btn-play"><i class="fas fa-play"></i></button>
                     <button type="button" class="d-inline-block btn btn-back-for"><i class="fas fa-step-forward"></i></button>
                 </div>
             </div>
-            <div class="col-5">
+            <div class="col-4">
                 <ul class="c-volume">
                     <li class="d-inline-block px-3 py-3"><i class="fas fa-sliders-h volume"></i></li>
                     <!-- <i class="fas fa-volume-off"></i> -->
