@@ -1,26 +1,23 @@
 <template>
     <div class="navbar fixed-bottom player">
         <div class="row">
-            <div class="col-4">
+            <div class="col">
                 <img class="img-player" src="https://source.unsplash.com/TIutDBFEtcY/400x400" alt="">
                 <ul class="d-inline-block align-middle">
                     <li class="bold">Canción</li>
                     <li class="text-small pt-2">Artista - Album</li>
                 </ul>
             </div>
-            <div class="col-4">
+            <div class="col-2">
                 <div class="multimedia">
                     <button type="button" class="d-inline-block btn btn-back-for"><i class="fas fa-step-backward"></i></button>
                     <button id="play" type="button" class="d-inline-block btn btn-play"><i class="fas fa-play"></i></button>
                     <button type="button" class="d-inline-block btn btn-back-for"><i class="fas fa-step-forward"></i></button>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col">
                 <ul class="c-volume">
                     <li class="d-inline-block px-3 py-3"><i class="fas fa-sliders-h volume"></i></li>
-                    <!-- <i class="fas fa-volume-off"></i> -->
-                    <!-- <i class="fas fa-volume-down"></i> -->
-                    <!-- <i class="fas fa-volume-mute"></i> -->
                     <li class="d-inline-block px-3 py-3"><i class="fas fa-volume-up volume"></i></li>
                 </ul>
             </div>
@@ -88,7 +85,7 @@ ul {
     height: 60px;
     width: 60px;
 }
-.btn:focus {
+.btn:focus, .btn:hover {
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%);
 }

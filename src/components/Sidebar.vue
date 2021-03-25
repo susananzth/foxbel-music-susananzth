@@ -26,8 +26,8 @@ export default {
 
 <style scoped>
 #layoutSidebar {
-    height: 100vh;
-    width: 25rem;
+    height: auto;
+    width: 30rem;
     z-index: 1038;
 }
 .sidenav{

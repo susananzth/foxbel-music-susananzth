@@ -8,7 +8,7 @@ Las herramientas que utilice para crear este proyecto
 
 ## Autores ✒️
 
-* **Susana Piñero** - *FrontEnd + Documentación* - GitLab: [susananzth](https://gitlab.com/susananzth) GitHub: [susananzth](https://github.com/susananzth)
+* **Susana Piñero** - *FrontEnd* - GitLab: [susananzth](https://gitlab.com/susananzth) GitHub: [susananzth](https://github.com/susananzth)
 
 ## Licencia 📄
 

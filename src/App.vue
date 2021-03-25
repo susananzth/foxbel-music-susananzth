@@ -19,8 +19,9 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-* {
+*, body {
     font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
 }
