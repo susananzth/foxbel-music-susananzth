@@ -1,7 +1,6 @@
 <template>
   <Player />
   <Content />
-  <router-view/>
 </template>
 
 <script>

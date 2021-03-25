@@ -47,15 +47,12 @@ export default {
         }
     },
     mounted(){
-        console.log("hola montado");
         this.getSongs();
     },
     methods: {
         getSongs(){
-            console.log("hola getSongs");
             axios.get('https://api.deezer.com/search/playlist?q=top')
                 .then( response => {
-                    console.log(response);
                     this.songs = response.data.data;
                 })
                 .catch( e => console.log(e));
